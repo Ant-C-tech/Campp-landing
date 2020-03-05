@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog" />
+    <meta name="robots" content="..., ..." />
+    <meta name="googlebot" content="..., ..." />
+    <meta name="google-site-verification" content="..." />
+    <meta http-equiv="Content-Type" content="...; charset=..." />
+    <meta charset="...">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon_package_v0.16/safari-pinned-tab.svg" color="#333333">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#333333">
+
+    <title>Campp</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body class="mx-auto bg-gradient-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-gradient-dark border-bottom" id="Home">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <picture class="lazy">
+                    <source srcset="#" data-srcset="img/logo.webp" type="image/webp">
+                    <img src="#" srcset="img/logo.png" alt="logo">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a rel="m_PageScroll2id" class="nav-link" href="#Contacts">Contacts</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <section class="intro d-flex justify-content-center align-items-center mb-4" id="intro">
+        <div class="container text-center">
+            <h1 class="intro__title display-2 text-light font-weight-bold font-italic">CampP</h1>
+            <p class="lead text-light font-italic">
+                To live - is to travel...
+            </p>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="bg-gradient-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-12">
+
+                    <div class="card border border-secondary mb-4 shadow">
+                        <picture class="lazy">
+                            <source srcset="#" data-srcset="img/author.webp" type="image/webp">
+                            <img class="card-img-top" src="#" srcset="img/author.jpg" alt="author photo">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">About me</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                                nec
+                                blanditiis assumenda ad laborum quis praesentium? Quibusdam nobis animi esse, laboriosam
+                                rem velit. Facilis quam est aliquam nobis fuga vitae minus sapiente.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                                necessitatibus
+                                blanditiis assumenda ad laborum quis praesentium? Quibusdam nobis animi esse, laboriosam
+                                rem velit. Facilis quam est aliquam nobis fuga vitae minus sapiente.</p>
+                            <a href="#" class="btn btn-secondary">Read more...</a>
+                        </div>
+                    </div>
+
+                    <h3 class="text-center d-lg-block d-sm-none d-md-none">Subscribe</h3>
+                    <div class="card border d-lg-block border-secondary mb-4 shadow d-sm-none d-md-none">
+                        <div class="card-body">
+                            <form method="POST" action="/">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <button type="submit" class="btn btn-secondary btn-block">
+                                    <a class="nav-link text-light" href="https://outlook.live.com/mail/0/inbox" target="_blank">Subscribe</a>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-sm-7 col-12">
+
+                    <div class="card border border-secondary mb-4 shadow">
+                        <picture class="lazy">
+                            <source srcset="#" data-srcset="img/photo-1.webp" type="image/webp">
+                            <img class="card-img-top" src="#" srcset="img/photo-1.jpg" alt="some photo">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                voluptatem itaque labore quidem officia nihil impedit sit. Molestiae itaque
+                                reprehenderit recusandae officiis temporibus enim impedit, sapiente dolorum! Nulla, nam
+                                voluptatibus?</p>
+                            <a href="https://www.instagram.com/" class="btn btn-secondary" target="_blank">Read
+                                more...</a>
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            2 days ago
+                        </div>
+                    </div>
+
+                    <div class="card border border-secondary mb-4 shadow">
+                        <picture class="lazy">
+                            <source srcset="#" data-srcset="img/photo-2.webp" type="image/webp">
+                            <img class="card-img-top" src="#" srcset="img/photo-2.jpg" alt="some photo">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem sit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
+                                voluptatum repellendus nulla nihil aspernatur facilis omnis, doloribus cupiditate
+                                incidunt ad saepe possimus id! Iste, exercitationem!</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
+                                voluptatum piditate
+                                incidunt ad saepe possimus id! Iste, exercitationem!</p>
+                            <a href="https://www.instagram.com/" class="btn btn-secondary" target="_blank">Read
+                                more...</a>
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            3 days ago
+                        </div>
+                    </div>
+
+                    <div class="card border border-secondary mb-4 shadow">
+                        <picture class="lazy">
+                            <source srcset="#" data-srcset="img/photo-3.webp" type="image/webp">
+                            <img class="card-img-top" src="#" srcset="img/photo-3.jpg" alt="some photo">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Amet consectetur.</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius
+                                deleniti repellat voluptatibus porro mollitia odit fugit dolorem ipsa nemo ab, sed harum
+                                nihil recusandae ipsum tempore! Qui cupiditate sit, tenetur itaque voluptatibus iste ex
+                                quo maiores dolores nihil aperiam, minus mollitia nesciunt adipisci unde! Dolorum illo
+                                blanditiis deleniti repellendus?</p>
+                            <a href="https://www.instagram.com/" class="btn btn-secondary" target="_blank">Read
+                                more...</a>
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            7 days ago
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-sm-5 col-12">
+
+                    <div class="card border border-secondary mb-4 shadow">
+                        <div class="card-body">
+                            <div class="row no-gutters">
+                                <div class="col-6">
+                                    <picture class="lazy">
+                                        <source srcset="#" data-srcset="img/gallery-1.webp" type="image/webp">
+                                        <img class="img-fluid" src="#" srcset="img/gallery-1.jpg" alt="some photo">
+                                    </picture>
+                                </div>
+                                <div class="col-6">
+                                    <picture class="lazy">
+                                        <source srcset="#" data-srcset="img/gallery-2.webp" type="image/webp">
+                                        <img class="img-fluid" src="#" srcset="img/gallery-2.jpg" alt="some photo">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-6">
+                                    <picture class="lazy">
+                                        <source srcset="#" data-srcset="img/gallery-3.webp" type="image/webp">
+                                        <img class="img-fluid" src="#" srcset="img/gallery-3.jpg" alt="some photo">
+                                    </picture>
+                                </div>
+                                <div class="col-6">
+                                    <picture class="lazy">
+                                        <source srcset="#" data-srcset="img/gallery-4.webp" type="image/webp">
+                                        <img class="img-fluid" src="#" srcset="img/gallery-4.jpg" alt="some photo">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-6">
+                                    <picture class="lazy">
+                                        <source srcset="#" data-srcset="img/gallery-5.webp" type="image/webp">
+                                        <img class="img-fluid" src="#" srcset="img/gallery-5.jpg" alt="some photo">
+                                    </picture>
+                                </div>
+                                <div class="col-6">
+                                    <picture class="lazy">
+                                        <source srcset="#" data-srcset="img/gallery-6.webp" type="image/webp">
+                                        <img class="img-fluid" src="#" srcset="img/gallery-6.jpg" alt="some photo">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-6">
+                                    <img class="lazyload img-fluid" loading="lazy" data-src="img/gallery-7.gif"
+                                        alt="some photo">
+                                </div>
+                                <div class="col-6">
+                                    <img class="lazyload img-fluid" loading="lazy" data-src="img/gallery-8.jpg"
+                                        alt="some photo">
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-6">
+                                    <img class="lazyload img-fluid" loading="lazy" data-src="img/gallery-9.jpg"
+                                        alt="some photo">
+                                </div>
+                                <div class="col-6">
+                                    <img class="lazyload img-fluid" loading="lazy" data-src="img/gallery-10.jpg"
+                                        alt="some photo">
+                                </div>
+                            </div>
+                            <a href="https://www.instagram.com/" class="btn btn-secondary mt-4" target="_blank">Read
+                                more...</a>
+                        </div>
+                    </div>
+
+                    <h3 class="text-center">Tags cloud</h3>
+                    <div class="card border border-secondary mb-4 shadow">
+                        <div class="card-body">
+                            <a class="badge badge-secondary text-light" href="#">campp</a>
+                            <a class="badge badge-info text-light" href="#">travel</a>
+                            <a class="badge badge-danger text-light" href="#">rest</a>
+                            <a class="badge badge-success text-light" href="#">world</a>
+                            <a class="badge badge-dark text-light" href="#">nature</a>
+                            <a class="badge badge-warning text-dark" href="#">photos</a>
+                        </div>
+                    </div>
+
+                    <h3 class="text-center">My brands</h3>
+                    <div class="list-group border-secondary mb-4 shadow">
+                        <a href="https://www.nike.com/" target="_blank" class="list-group-item list-group-item-action">
+                            <img class="lazyload d-block w-25 mx-auto" loading="lazy" data-src="img/nike.svg"
+                                alt="nike">
+                        </a>
+                        <a href="https://www.discover.com/" target="_blank"
+                            class="list-group-item list-group-item-action">
+                            <img class="lazyload d-block w-25 mx-auto" loading="lazy"
+                                data-src="img/cc-discover-brands.svg" alt="discover">
+                        </a>
+                        <a href="https://www.amazon.com/" target="_blank"
+                            class="list-group-item list-group-item-action">
+                            <img class="lazyload d-block w-25 mx-auto" loading="lazy" data-src="img/amazon-brands.svg"
+                                alt="amazon">
+                        </a>
+                        <a href="https://getgrav.org/" target="_blank" class="list-group-item list-group-item-action">
+                            <img class="lazyload d-block w-25 mx-auto" loading="lazy" data-src="img/grav-brands.svg"
+                                alt="grav">
+                        </a>
+                        <a href="https://www.teamspeak.com/en/" target="_blank"
+                            class="list-group-item list-group-item-action">
+                            <img class="lazyload d-block w-25 mx-auto" loading="lazy"
+                                data-src="img/teamspeak-brands.svg" alt="teamspeak">
+                        </a>
+                    </div>
+
+                    <h3 class="text-center d-lg-none">Subscribe</h3>
+                    <div class="card border border-secondary mb-4 shadow d-lg-none">
+                        <div class="card-body">
+                            <form method="POST" action="/">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <button type="submit" class="btn btn-secondary btn-block">
+                                   <a class="nav-link text-light" href="https://outlook.live.com/mail/0/inbox" target="_blank">Subscribe</a>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Pagination -->
+    <nav aria-label="...">
+        <ul class="pagination justify-content-center mb-4">
+            <li class="page-item disabled shadow">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item active shadow"><a class="page-link" href="#">1</a></li>
+            <li class="page-item shadow" aria-current="page">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item shadow"><a class="page-link" href="#">3</a></li>
+            <li class="page-item shadow">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Footer -->
+    <div class="footer__container position-relative overflow-hidden" id="Contacts">
+
+        <picture class="lazy">
+            <source srcset="#" data-srcset="img/bg.webp" type="image/webp">
+            <img src="#" srcset="img/bg.jpg" alt="some photo">
+        </picture>
+
+        <footer class="footer position-absolute w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 mb-4">
+                        <h3 class="text-light">Traveler's blog</h3>
+                        <p class="text-light"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, autem
+                            necessitatibus
+                            laudantium iure rem saepe dolorem, maxime illo eaque fugiat ipsum sunt soluta harum ullam
+                            aperiam animi quidem consequuntur itaque!</p>
+                    </div>
+                    <div class="col-lg-3 col-6 mb-4">
+                        <h3 class="text-light">Contacts</h3>
+                        <address>
+                            <p class="font-weight-bold text-light mb-1">Campp Inc.</p>
+                            <p class="text-light mb-1">10111 Santa Monica Boulevard, LA</p>
+                            <p class="text-light mb-1">+44 987 065 908</p>
+                            <p class="text-light mb-1">info@Example.com</p>
+                            <p class="text-light mb-1">+44 987 065 909</p>
+                        </address>
+                    </div>
+                    <div class="col-lg-3 col-6 mb-4">
+                        <h3 class="text-light">Navigation</h3>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a rel="m_PageScroll2id" class="nav-link text-light" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active  text-truncate" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row d-flex flex-column align-items-center">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6 text-center">
+                        <picture class="lazy">
+                            <source srcset="#" data-srcset="img/logo.webp" type="image/webp">
+                            <img src="#" srcset="img/logo.png" alt="logo">
+                        </picture>
+                        <p class="text-light">Designed by BrainsCloud</p>
+                        <p class="text-light">Icons made by <a class="text-light" href="https://www.flaticon.com/authors/pixel-perfect"
+                                title="Pixel perfect">Pixel
+                                perfect</a> from <a class="text-light" href="https://www.flaticon.com/" title="Flaticon">
+                                www.flaticon.com</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/p5.min.js"></script>
+    <script src="js/vanta.topology.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    <script>
+        (function ($) {
+            $(window).on("load", function () {
+                $("a[rel='m_PageScroll2id']").mPageScroll2id();
+            });
+        })(jQuery);
+    </script>
+    <!-- Проверка поддержки атрибута loading браузерами -->
+    <script>
+        (async () => {
+            if ('loading' in HTMLImageElement.prototype) {
+                const images = document.querySelectorAll("img.lazyload");
+                images.forEach(img => {
+                    img.src = img.dataset.src;
+                });
+            } else {
+                // Dynamically import the LazySizes library
+                let script = document.createElement("script");
+                script.async = true;
+                script.src =
+                    "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+                document.body.appendChild(script);
+            }
+        })();
+    </script>
+    <script src="js/lazy.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

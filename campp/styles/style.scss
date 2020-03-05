@@ -1,0 +1,50 @@
+// Bootstrap settings
+$enable-shadows: true;
+$enable-gradients: true;
+
+$pagination-active-bg: #6c757d;
+$pagination-color: #212529;
+
+$list-group-border-color: #6c757d;
+$list-group-active-bg: #6c757d;
+
+$nav-link-padding-x: 0;
+
+@import "../bootstrap-4.4.1/scss/bootstrap.scss";
+
+body {
+    max-width: 1920px;
+}
+
+.intro {
+    min-height: 400px;
+}
+
+.footer__container {
+    max-height: 400px;
+}
+
+.footer {
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+// Media breakpoints
+
+@media screen and (max-width: 975px) {
+    .footer__container {
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .intro__title {
+        font-size: 60px;
+    }
+
+    .footer__container {
+        max-height: 650px;
+    }
+}
